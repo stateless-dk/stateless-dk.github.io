@@ -50,6 +50,8 @@ a{}
     padding-right: 0.5px;
     font-weight: bold;
     letter-spacing: 0;
+    line-height: 1;
+    padding-bottom: 1px;
     }
 
 .title-span-selected{
