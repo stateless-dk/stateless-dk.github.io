@@ -56,8 +56,6 @@ a{}
 
 .title-span-selected{
     border-radius: 2px;
-    border: 1px solid rgba(155, 171, 179, 0.1);
-    background: rgba(251, 251, 255, 0.9);
     color: orange;
     
 }
