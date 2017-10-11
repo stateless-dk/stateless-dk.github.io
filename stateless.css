@@ -62,3 +62,45 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
+
+/* IPHONE */
+
+/* Portrait */
+@media only screen
+and (max-device-width: 767px)
+and (orientation: portrait) {
+    .title {
+        font-size: 55px;
+    }
+    .contact {
+        font-size: 30px;
+    }
+    .sub-title {
+        font-size: 30px;
+    }
+}
+
+/* Landscape */
+@media only screen
+and (max-device-width: 767px)
+and (orientation: landscape) {
+
+}
+
+
+/* TABLET */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    .title {
+        font-size: 36px;
+     }
+    .contact {
+        font-size: 21px;
+    }
+    .sub-title {
+        font-size: 21px;
+    }
+}
