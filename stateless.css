@@ -71,16 +71,16 @@ and (min-device-width: 320px)
 and (max-device-width: 736px)
 and (orientation: portrait) {
     .title {
-        font-size: 48px;
+        font-size: 55px;
     }
     .contact {
-        font-size: 28px;
+        font-size: 30px;
     }
     .sub-title {
-        font-size: 28px;
+        font-size: 30px;
     }
     .top {
-        flex-grow: 40;
+        flex-grow: 80;
     }
 
 }
