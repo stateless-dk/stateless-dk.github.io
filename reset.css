@@ -31,21 +31,21 @@ body, textarea {
 }
 
 a {
-    color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
     transition: color 0.1s linear;
 }
 
 a:active {
     outline: none;
-    color: rgba(25, 118, 210, 1);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 a:focus {
     outline: none;
-    color: rgba(25, 118, 210, 1);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 a:hover {
-    color: rgba(25, 118, 210, 1);
+    color: rgba(255, 255, 255, 0.6);
 }
