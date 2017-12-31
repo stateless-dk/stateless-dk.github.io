@@ -55,12 +55,17 @@ body {
 .contact-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .contact {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.3);
+    white-space: nowrap;
+    padding-right: 10px;
 }
 
 
@@ -71,13 +76,13 @@ body {
 and (max-device-width: 767px)
 and (orientation: portrait) {
     .title {
-        font-size: 20px;
+        font-size: 22px;
     }
     .contact {
-        font-size: 10px;
+        font-size: 14px;
     }
     .sub-title {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
@@ -95,5 +100,13 @@ and (orientation: landscape) {
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait) {
-
+     .title {
+        font-size: 24px;
+    }
+    .contact {
+        font-size: 18px;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
 }
